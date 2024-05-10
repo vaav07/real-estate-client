@@ -106,8 +106,14 @@ nav {
       }
     }
 
-    .register {
-      background-color: #fece51;
+    .noUser {
+      display: flex;
+      align-items: center;
+
+      .register {
+        background-color: #fece51;
+        // cursor: pointer;
+      }
     }
 
     .menuIcon {
